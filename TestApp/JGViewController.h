@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface JGViewController : UIViewController
+- (IBAction)pressMeButton:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end

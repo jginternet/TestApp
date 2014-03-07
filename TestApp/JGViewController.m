@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressMeButton:(UIButton *)sender
+{
+    self.textField.text = @"Hello World";
+}
 @end
