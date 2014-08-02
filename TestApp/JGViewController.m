@@ -32,4 +32,6 @@
 {
     self.textField.text = @"Hello World";
 }
+- (IBAction)slider:(UISlider *)sender {
+}
 @end

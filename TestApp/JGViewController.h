@@ -12,4 +12,5 @@
 - (IBAction)pressMeButton:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 
+- (IBAction)slider:(UISlider *)sender;
 @end
